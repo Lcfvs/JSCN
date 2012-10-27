@@ -1,0 +1,4 @@
+JSCN
+====
+
+JavaScript Class Notation
