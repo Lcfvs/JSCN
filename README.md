@@ -1,4 +1,4 @@
 JSCN
 ====
 
-JavaScript Class Notation
+JavaScript Class Notation (version 0.1)
