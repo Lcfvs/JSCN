@@ -1,0 +1,10 @@
+/*
+bkjbk
+*/
+class MaClasse extends ClasseMere implements Interface1,Interface2{
+  public str='\n';
+	public sthr='\n';
+	ClasseMere public function getParentInstance(){
+		return parent.construct();
+	}
+}
