@@ -365,27 +365,6 @@ JSCN=function(){
 			Object.seal(window[className].prototype);
 			classInfo.self=$self;
 			self.classes[className]=classInfo;
-		},
-		getInterface:function getInterface(ns,interfaceName){
-			var fullName;
-			fullName=ns+interfaceName;
-			if(typeof self.interfaces[fullName]==='undefined'){
-				self.createInterface(self.parse(fullName,'interface',self.load(fullName)));
-			}
-			return self.interfaces[fullName];
-		},
-		createInterface:function createInterface(interfaceInfo){
-			var method,
-				parentInfo;
-			if(typeof interfaceInfo.parent!=='undefined'){
-				parentInfo=self.getInterface(interfaceInfo.ns,interfaceInfo.parent);
-				for(method in parentInfo.methods){
-					if(typeof interfaceInfo.methods[method]==='undefined'){
-						interfaceInfo.methods[method]=parentInfo.methods[method];
-					}
-				}
-			}
-			self.interfaces[interfaceInfo.name]=interfaceInfo;
 		}
 	};
 	return self.getClass;
