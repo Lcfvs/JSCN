@@ -1,0 +1,10 @@
+/*
+bkjbk
+*/
+class MaClasseEtendantUneAbstraite extends ClasseMereAbstraite implements Interface1,Interface2{
+  public str='\n';
+	public sthr='\n';
+	public function getParentInstance(){
+		return parent.construct();
+	}
+}
