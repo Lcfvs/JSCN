@@ -367,5 +367,6 @@ JSCN=function(){
 			self.classes[className]=classInfo;
 		}
 	};
+	Object.freeze(self);
 	return self.getClass;
 };
