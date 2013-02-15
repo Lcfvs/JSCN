@@ -1,0 +1,3 @@
+- Manage the interfaces
+- Manage the arguments default values
+- Create a real parser/lexer (pending)
