@@ -16,4 +16,4 @@ class SampleClass extends ParentClass implements Interface1, Interface2 {<br />
 
 This is version is fully functional but some features have yet to be added. ;)
 
-Looking for a partner expert in JS parsing to complete this tool. ;)
+Looking for a partner expert in JS parsing to complete this tool.
