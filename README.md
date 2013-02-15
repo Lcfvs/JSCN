@@ -5,15 +5,13 @@ JavaScript Class Notation (version 0.1)
 
 A JavaScript classes interpreter written in PHP OOP way.
 
-/*
-  A sample class
-*/
-class SampleClass extends ParentClass implements Interface1, Interface2 {
-  public str = 'a value';
-	public static staticStr = 'a static value';
-	ParentClass final public static function getParentInstance() {
-		return parent.construct();
-	}
+// A sample class<br />
+class SampleClass extends ParentClass implements Interface1, Interface2 {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;public str = 'a value';<br />
+&nbsp;&nbsp;&nbsp;&nbsp;public static staticStr = 'a static value';<br />
+&nbsp;&nbsp;&nbsp;&nbsp;ParentClass final public static function getParentInstance() {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return parent.construct();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;}<br />
 }
 
 This is version is fully functional but some features have yet to be added. ;)
