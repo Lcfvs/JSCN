@@ -1,0 +1,12 @@
+/*
+bkjbk
+*/
+abstract class ClasseMereAbstraite implements Interface1,Interface2{
+  public abc=4;
+	public str='jhhj\njhj';
+	public sthr='\n';
+	public static function test()
+	{
+		return 'ok';
+	}
+}
